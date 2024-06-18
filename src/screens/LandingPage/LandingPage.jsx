@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "./style.css";
 
-export const LandingPage = () => {
+const LandingPage = () => {
   return (
     <div className="landing-page">
       <Helmet>
@@ -117,3 +117,5 @@ export const LandingPage = () => {
     </div>
   );
 };
+
+export default LandingPage;
