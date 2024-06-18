@@ -1,9 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./style.css";
 
 export const LandingPage = () => {
   return (
     <div className="landing-page">
+      <Helmet>
+        <title>COMING SOON</title>
+        <meta name="description" content="COMING SOON" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
+      </Helmet>
       <div className="div">
         <div className="overlap-group">
           <div className="rectangle" />
@@ -15,9 +21,9 @@ export const LandingPage = () => {
             <br />
             Follow our socials for updates!
             <br />
-            x.com/sardanacoin
+            <a href="https://x.com/sardanacoin" target="_blank" rel="noopener noreferrer">x.com/sardanacoin</a>
             <br />
-            t.me/sardanacoin
+            <a href="https://t.me/sardanacoin" target="_blank" rel="noopener noreferrer">t.me/sardanacoin</a>
           </p>
           <img className="img" alt="Rectangle" src="/img/rectangle-2.png" />
           <div className="text-wrapper">sardana.io</div>
@@ -87,8 +93,10 @@ export const LandingPage = () => {
           />
           <div className="rectangle-4" />
           <div className="text-wrapper-6">@TEAM SARDANA 2024</div>
-          <div className="text-wrapper-7">t.me/sardanacoin</div>
-          <a className="text-wrapper-8" href="https://t.me/sardanacoin" rel="noopener noreferrer" target="_blank">
+          <div className="text-wrapper-7">
+            <a href="https://t.me/sardanacoin" target="_blank" rel="noopener noreferrer">t.me/sardanacoin</a>
+          </div>
+          <a className="text-wrapper-8" href="https://x.com/sardanacoin" rel="noopener noreferrer" target="_blank">
             x.com/sardanacoin
           </a>
           <div className="text-wrapper-9">social links:</div>
