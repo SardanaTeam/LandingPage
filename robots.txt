@@ -4,4 +4,7 @@ Disallow: /tmp/
 Disallow: /admin/
 Disallow: /mint/
 
+User-agent: Googlebot
+Allow: /
+
 Sitemap: https://sardana.io/sitemap.xml
