@@ -6,12 +6,14 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <Helmet>
-        <title>COMING SOON</title>
-        <meta name="description" content="COMING SOON" />
-        <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
+        <title>Sardana.io - COMING SOON</title>
+        <meta name="description" content="Sardana is coming soon! Stay tuned for updates on our decentralized cryptocurrency." />
+        <meta name="keywords" content="Sardana, SardanaCoin, Sardana.io, Cryptocurrency, Blockchain, Decentralized, ICO" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/static/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/static/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/static/img/sardana-4.png" />
+        <link rel="canonical" href="https://sardana.io/" />
       </Helmet>
       <div className="div">
         <div className="overlap-group">
