@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <Helmet>
-        <title>COMING SOON</title>
+        <title>SARDANA COIN AIRDROP EVENT AND PRE SALE COMING SOON</title>
         <meta name="description" content="Sardana is coming soon! Stay tuned for updates on our decentralized cryptocurrency." />
         <meta name="keywords" content="Sardana, SardanaCoin, Sardana.io, Cryptocurrency, Blockchain, Decentralized, ICO" />
         <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
