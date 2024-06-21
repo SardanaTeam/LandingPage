@@ -175,12 +175,12 @@
   font-size: 45px;
   font-weight: 400;
   height: 340px;
-  left: 795px;
+  left: 115px;
   letter-spacing: 0;
   line-height: 67.5px;
   position: absolute;
-  text-align: right;
-  top: 2484px;
+  text-align: center;
+  top: 3074px;
 }
 
 .landing-page .text-wrapper-3 {
@@ -248,12 +248,14 @@
   font-family: "Irish Grover", Helvetica;
   font-size: 40px;
   font-weight: 400;
-  left: 94px;
-  letter-spacing: 0;
+  left: 100px;
+  letter-spacing: 1px;
   line-height: 60px;
   position: absolute;
   top: 2301px;
-  width: 450px;
+  width: 600px;
+  text-align: center;
+  
 }
 
 .landing-page .text-wrapper-5 {
