@@ -8,7 +8,7 @@ const LandingPage = () => {
       <Helmet>
         <title>Sardana.io - COMING SOON</title>
         <meta name="description" content="Sardana is coming soon! Stay tuned for updates on our decentralized cryptocurrency." />
-        <meta name="keywords" content="Sardana, Cryptocurrency, Blockchain, Decentralized, ICO" />
+        <meta name="keywords" content="Sardana, SardanaCoin, Sardana.io, Cryptocurrency, Blockchain, Decentralized, ICO" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/static/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/static/img/sardana-4.png" sizes="16x16" />
