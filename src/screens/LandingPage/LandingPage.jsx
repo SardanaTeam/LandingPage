@@ -31,12 +31,23 @@ const LandingPage = () => {
           </p>
           <img className="img" alt="Rectangle" src="/img/rectangle-2.png" />
           <div className="text-wrapper">sardana.io</div>
-          <img className="designer-2" alt="Designer" src="/img/designer-29-1.png" />
+          
           <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg-1.png" />
           <img className="designer-3" alt="Designer" src="/img/designer-39-3.png" />
           <div className="text-wrapper-2">Sardana</div>
           <img className="sardana" alt="Sardana" src="/img/sardana-6.png" />
           <p className="no-tax-mint-revoked">
+            no tax!
+            <br />
+            mint revoked!
+            <br />
+            lp token burn!
+            <br />
+            development and
+            <br />
+            marketing tokens locked!
+          </p>
+          <p className="no-tax-mint-revoked-bg">
             no tax!
             <br />
             mint revoked!
@@ -74,7 +85,8 @@ const LandingPage = () => {
             <br />
             The allocation amount will be based on the total token sale in a unique model, with the percentages
             specified below:
-            <br />
+            </p>
+            <p className="allocation-the-2">
             1%&nbsp;&nbsp;- Promotional Airdrops
             <br />
             8% - Reserves
@@ -87,6 +99,26 @@ const LandingPage = () => {
             <br />
             43% - Pre Sale
           </p>
+          <p className="allocation-the-bg">
+            Allocation
+            <br />
+            The allocation amount will be based on the total token sale in a unique model, with the percentages
+            specified below:
+            </p>
+            <p className="allocation-the-bg-2">
+            1%&nbsp;&nbsp;- Promotional Airdrops
+            <br />
+            8% - Reserves
+            <br />
+            8%&nbsp;&nbsp;- Developers
+            <br />
+            10%&nbsp;&nbsp;- Marketing
+            <br />
+            30% - Liquidity
+            <br />
+            43% - Pre Sale
+            </p>
+          
           <p className="text-wrapper-5">Free airdrops and Pre-Sale soon!</p>
           <a
             href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
