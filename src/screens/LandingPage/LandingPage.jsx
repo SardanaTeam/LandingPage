@@ -13,6 +13,8 @@ const LandingPage = () => {
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
+        <meta property="og:image" content="https://sardana.io/img/designer-39-3.png" />
+        <meta name="twitter:image" content="https://sardana.io/img/designer-39-3.png" />
       </Helmet>
       <div className="div">
         <div className="overlap-group">
