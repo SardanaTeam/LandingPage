@@ -1,4 +1,5 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 
 @media (min-width: 1025px) {
   .landing-page {
@@ -90,6 +91,21 @@
   top: 257px;
   width: 450px;
 }
+.landing-page .medium-link {
+  position: absolute;
+  top: 853px;
+  left: 1225px;
+  width: 145px;
+  height: 76px;
+  }
+
+.landing-page .medium-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
 
 .landing-page .img {
   height: 347px;
@@ -123,6 +139,32 @@
   position: absolute;
   top: 2281px;
   width: 1262px;
+}
+
+.landing-page .arrow-image {
+  position: absolute;
+  top: 855px;
+  left: 1116px;
+  width: 85px;
+  height: 85px;
+  opacity: 0.87; /* 87% opacity */
+  object-fit: cover;
+  z-index: 10; /* Ensure it is on top */
+  transform: rotate(-14deg);
+}
+
+.landing-page .medium-text {
+  position: absolute;
+  top: 930px;
+  left: 1047px;
+  font-family: 'Island Moments', cursive;
+  font-size: 46px;
+  font-weight: 400;
+  width: 330px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
 }
 
 .landing-page .pie-chart-no-bg {

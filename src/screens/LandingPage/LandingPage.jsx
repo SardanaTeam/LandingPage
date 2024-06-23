@@ -88,6 +88,20 @@ const LandingPage = () => {
             43% - Pre Sale
           </p>
           <p className="text-wrapper-5">Free airdrops and Pre-Sale soon!</p>
+          <a
+            href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="medium-link"
+          >
+            <img
+              src="/img/medium.png"
+              alt="Medium"
+              className="medium-img"
+            />
+          </a>
+          <div className="medium-text">Medium Press Release</div>
+          <img className="arrow-image" alt="Arrow" src="/img/arrow.png" />
         </div>
         <div className="overlap">
           <img
