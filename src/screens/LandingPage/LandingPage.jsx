@@ -10,8 +10,6 @@ const LandingPage = () => {
         <meta name="description" content="Sardana is coming soon! Stay tuned for updates on our decentralized cryptocurrency." />
         <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
         <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
-        <meta property="og:image" content="https://sardana.io/img/designer-39-3.png" />
-        <meta name="twitter:image" content="https://sardana.io/img/designer-39-3.png" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
