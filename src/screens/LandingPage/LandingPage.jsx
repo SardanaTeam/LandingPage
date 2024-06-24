@@ -119,7 +119,7 @@ const LandingPage = () => {
             43% - Pre Sale
             </p>
           
-          <p className="text-wrapper-5">Free airdrops and Pre-Sale soon!</p>
+          <p className="text-wrapper-5">Free airdrops and ICO soon!</p>
           <a
             href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
             target="_blank"
