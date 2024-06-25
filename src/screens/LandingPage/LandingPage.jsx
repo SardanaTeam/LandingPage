@@ -7,12 +7,23 @@ const LandingPage = () => {
     <div className="landing-page">
       <Helmet>
         <title>SARDANA COIN SOON</title>
-        <meta name="description" content="Sardana is coming soon! Stay tuned for updates on our decentralized cryptocurrency." />
+        <meta name="description" content="Sardana Coin coming soon! follow our socials and prepare for our free airdrop and pre sale soon!"/>
         <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
-        <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="img/sardana-4.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
+        <link rel="canonical" href="https://sardana.io/" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "http://schema.org",
+              "@type": "WebSite",
+              "name": "Sardana",
+              "url": "https://sardana.io/",
+              "description": "Sardana Coin coming soon! follow our socials and prepare for our free airdrop and pre sale soon!"
+            }
+          `}
+        </script>
       </Helmet>
       <div className="div">
         <div className="overlap-group">
