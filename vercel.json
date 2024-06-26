@@ -37,5 +37,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/medium",
+      "destination": "https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634",
+      "permanent": true
+    }
   ]
 }
