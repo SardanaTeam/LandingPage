@@ -44,7 +44,7 @@ const LandingPage = () => {
           <img className="img" alt="Rectangle" src="/img/rectangle-2.png" />
           <div className="text-wrapper">sardana.io</div>
           
-          <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg-1.png" />
+          <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg.png" />
           <img className="designer-3" alt="Designer" src="/img/designer-39-3.png" />
           <div className="text-wrapper-2">Sardana</div>
           <img className="sardana" alt="Sardana" src="/img/sardana-6.png" />
