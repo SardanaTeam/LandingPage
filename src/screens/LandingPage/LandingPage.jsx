@@ -6,8 +6,8 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <Helmet>
-        <title>SARDANA COIN SOON</title>
-        <meta name="description" content="Sardana Coin coming soon! follow our socials and prepare for our free airdrop and pre sale soon!"/>
+        <title>SARDANA COIN - AIRDROP EVENT JULY 17TH</title>
+        <meta name="description" content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"/>
         <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
         <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
@@ -21,7 +21,7 @@ const LandingPage = () => {
               "@type": "WebSite",
               "name": "Sardana",
               "url": "https://sardana.io/",
-              "description": "Sardana Coin coming soon! follow our socials and prepare for our free airdrop and pre sale soon!"
+              "description": "Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"
             }
           `}
         </script>
@@ -131,7 +131,7 @@ const LandingPage = () => {
             43% - Pre Sale
             </p>
           
-          <p className="text-wrapper-5">Free airdrops and ICO soon!</p>
+          <p className="text-wrapper-5">Free Airdrop Event July 17th and ICO soon!</p>
           <a
             href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
             target="_blank"
