@@ -3,14 +3,6 @@ import { Helmet } from "react-helmet";
 import "./style.css";
 
 const LandingPage = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.charset = "utf-8";
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <div className="landing-page">
       <Helmet>
@@ -28,6 +20,7 @@ const LandingPage = () => {
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
         <link rel="canonical" href="https://sardana.io/" />
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script type="application/ld+json">
           {`
             {
@@ -47,7 +40,7 @@ const LandingPage = () => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <p className="website-under">
-            Airdrop Registration July 17th. Airdrop promotion event! Check our twitter and participate!
+            Airdrop Registration July 17th. Airdrop promotion event! Check our Twitter and 
             <br />
             Follow our socials for updates!
             <br />
@@ -55,7 +48,6 @@ const LandingPage = () => {
             <br />
             <a href="https://t.me/sardanacoin" target="_blank" rel="noopener noreferrer">t.me/sardanacoin</a>
           </p>
-         
           <div className="text-wrapper">sardana.io</div>
           
           <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg.png" />
