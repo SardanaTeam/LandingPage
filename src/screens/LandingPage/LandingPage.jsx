@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "./style.css";
 
 const LandingPage = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.charset = "utf-8";
+    document.body.appendChild(script);
+  }, []);
+
   return (
     <div className="landing-page">
       <Helmet>
         <title>SARDANA COIN - AIRDROP EVENT JULY 17TH</title>
-        <meta name="description" content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"/>
-        <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
-        <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
+        <meta
+          name="description"
+          content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"
+        />
+        <meta
+          name="keywords"
+          content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
@@ -33,7 +47,7 @@ const LandingPage = () => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <p className="website-under">
-            Website Under development
+            Airdrop Registration July 17th. Airdrop promotion event! Check our twitter and participate!
             <br />
             Follow our socials for updates!
             <br />
@@ -41,7 +55,7 @@ const LandingPage = () => {
             <br />
             <a href="https://t.me/sardanacoin" target="_blank" rel="noopener noreferrer">t.me/sardanacoin</a>
           </p>
-          <img className="img" alt="Rectangle" src="/img/rectangle-2.png" />
+         
           <div className="text-wrapper">sardana.io</div>
           
           <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg.png" />
@@ -131,7 +145,7 @@ const LandingPage = () => {
             43% - Pre Sale
             </p>
           
-          <p className="text-wrapper-5">Free Airdrop Event July 17th and ICO soon!</p>
+          <p className="text-wrapper-5">Free Airdrop Event July 17th!</p>
           <a
             href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
             target="_blank"
@@ -146,6 +160,22 @@ const LandingPage = () => {
           </a>
           <div className="medium-text">Medium Press Release</div>
           <img className="arrow-image" alt="Arrow" src="/img/arrow.png" />
+
+          {/* Twitter Embed Container */}
+          <div className="twitter-container">
+            <blockquote className="twitter-tweet">
+              <p lang="en" dir="ltr">
+                🚀 Exciting News! Our Airdrop Registration Starts on July 17th! 🎉<br /><br />
+                To celebrate, we&#39;re giving away 1 SOL to the top Sardine who follows these steps:<br /><br />
+                1️⃣ Follow <a href="https://twitter.com/SardanaCoin?ref_src=twsrc%5Etfw">@sardanacoin</a><br />
+                2️⃣ Comment on this post<br />
+                3️⃣ Retweet this post to spread the word!<br /><br />
+                The Sardine with the most likes and… <a href="https://t.co/uGuIZjC8hd">pic.twitter.com/uGuIZjC8hd</a>
+              </p>
+              &mdash; Sardana (@SardanaCoin) <a href="https://twitter.com/SardanaCoin/status/1807139225256554990?ref_src=twsrc%5Etfw">June 29, 2024</a>
+            </blockquote>
+          </div>
+
         </div>
         <div className="overlap">
           <img
