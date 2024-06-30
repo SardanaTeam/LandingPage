@@ -21,7 +21,6 @@ const LandingPage = () => {
           <div className="rectangle" />
           <img className="designer" alt="Designer" src="/img/designer-39-4.png" />
           <div className="rectangle-2" />
-          <div className="rectangle-vza" />
           <div className="rectangle-3" />
           <p className="website-under">
             Airdrop Registration July 17th. Airdrop promotion event! Check our Twitter and
@@ -34,8 +33,8 @@ const LandingPage = () => {
           <div className="text-wrapper">sardana.io</div>
           
           <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg.png" />
-          <img className="designer-3" alt="Designer" src="/img/designer-39-3.png" />
-          <div className="text-wrapper-2">Sardana</div>
+          
+          <img className="designer-logo" alt="Designer" src="/img/logo.png" />
           <img className="sardana" alt="Sardana" src="/img/sardana-6.png" />
           <p className="no-tax-mint-revoked">
             no tax!
