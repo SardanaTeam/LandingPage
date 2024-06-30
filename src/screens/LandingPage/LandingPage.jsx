@@ -1,11 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
+import TwitterEmbed from './TwitterEmbed'; // Import the TwitterEmbed component
 import "./style.css";
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
       <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <title>SARDANA COIN - AIRDROP EVENT JULY 17TH</title>
         <meta
           name="description"
@@ -15,23 +17,14 @@ const LandingPage = () => {
           name="keywords"
           content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
         <link rel="canonical" href="https://sardana.io/" />
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "WebSite",
-              "name": "Sardana",
-              "url": "https://sardana.io/",
-              "description": "Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"
-            }
-          `}
-        </script>
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self' https://platform.twitter.com; frame-src 'self' https://platform.twitter.com;"
+        />
       </Helmet>
       <div className="div">
         <div className="overlap-group">
@@ -153,20 +146,8 @@ const LandingPage = () => {
           <div className="medium-text">Medium Press Release</div>
           <img className="arrow-image" alt="Arrow" src="/img/arrow.png" />
 
-          {/* Twitter Embed Container */}
-          <div className="twitter-container">
-            <blockquote className="twitter-tweet">
-              <p lang="en" dir="ltr">
-                🚀 Exciting News! Our Airdrop Registration Starts on July 17th! 🎉<br /><br />
-                To celebrate, we&#39;re giving away 1 SOL to the top Sardine who follows these steps:<br /><br />
-                1️⃣ Follow <a href="https://twitter.com/SardanaCoin?ref_src=twsrc%5Etfw">@sardanacoin</a><br />
-                2️⃣ Comment on this post<br />
-                3️⃣ Retweet this post to spread the word!<br /><br />
-                The Sardine with the most likes and… <a href="https://t.co/uGuIZjC8hd">pic.twitter.com/uGuIZjC8hd</a>
-              </p>
-              &mdash; Sardana (@SardanaCoin) <a href="https://twitter.com/SardanaCoin/status/1807139225256554990?ref_src=twsrc%5Etfw">June 29, 2024</a>
-            </blockquote>
-          </div>
+          {/* Twitter Embed Component */}
+          <TwitterEmbed />
 
         </div>
         <div className="overlap">
