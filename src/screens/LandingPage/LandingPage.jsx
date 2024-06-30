@@ -21,6 +21,7 @@ const LandingPage = () => {
           <div className="rectangle" />
           <img className="designer" alt="Designer" src="/img/designer-39-4.png" />
           <div className="rectangle-2" />
+          <div className="rectangle-vza" />
           <div className="rectangle-3" />
           <p className="website-under">
             Airdrop Registration July 17th. Airdrop promotion event! Check our Twitter and
