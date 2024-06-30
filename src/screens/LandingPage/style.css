@@ -452,9 +452,9 @@
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid #e1e8ed;
-  position: relative;
+  position: absolute;
   top: 210px;
-  left: 494px; /* Allows for positioning adjustments */
+  left: 1058px; /* Allows for positioning adjustments */
 }
 
 /* Customize the tweet content */
