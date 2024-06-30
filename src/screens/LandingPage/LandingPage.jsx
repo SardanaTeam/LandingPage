@@ -23,11 +23,7 @@ const LandingPage = () => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <p className="website-under">
-          Airdrop Registration July 17th. Airdrop promotion event! Check{" "}
-  <a href="https://pic.twitter.com/uGuIZjC8hd" target="_blank" rel="noopener noreferrer">
-    pic.twitter.com/uGuIZjC8hd
-  </a>{" "}
-  for updates!
+            Airdrop Registration July 17th. Airdrop promotion event! Check pic.twitter.com/uGuIZjC8hd for updates!
             <br />
             <a href="https://x.com/sardanacoin" target="_blank" rel="noopener noreferrer">x.com/sardanacoin</a>
             <br />
