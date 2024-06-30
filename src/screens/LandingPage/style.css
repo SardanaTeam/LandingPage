@@ -1,19 +1,18 @@
-/* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 
 @media (min-width: 1025px) {
   .landing-page {
     background-color: #baf0fc;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column; /* Changed to column for better layout */
+    align-items: center; /* Center align items */
     width: 100vw;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 }
 @media only screen and (max-width: 1024px) {
   .landing-page {
-    overflow-x: scroll;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     transform: scale(1);
   }
 }
@@ -21,8 +20,8 @@
 .landing-page {
   background-color: #baf0fc;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column; /* Changed to column for better layout */
+  align-items: center; /* Center align items */
   width: 100%;
 }
 
@@ -31,15 +30,18 @@
   height: 4686px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .landing-page .overlap-group {
   height: 3607px;
-  left: 34px;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   top: -20px;
-  width: 1564px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .landing-page .rectangle {
@@ -93,13 +95,14 @@
   width: 342px;
   opacity: 0.75;
 }
+
 .landing-page .medium-link {
   position: absolute;
   top: 853px;
   left: 1225px;
   width: 145px;
   height: 76px;
-  }
+}
 
 .landing-page .medium-img {
   width: 100%;
@@ -107,7 +110,6 @@
   object-fit: cover;
   opacity: 0.8;
 }
-
 
 .landing-page .img {
   height: 347px;
@@ -228,6 +230,7 @@
   top: 2304px;
   z-index: 10;
 }
+
 .landing-page .no-tax-mint-revoked-bg {
   -webkit-text-stroke: 70px rgba(146, 248, 255, 0.87); /* Apply the stroke with the specified color and opacity */
   text-shadow: 
@@ -239,7 +242,6 @@
     -16px 16px 0 rgba(146, 248, 255, 0.87),
     16px -16px 0 rgba(146, 248, 255, 0.87),
     -16px -16px 0 rgba(146, 248, 255, 0.87);
-  
   color: #ffffff;
   font-family: "Irish Grover", Helvetica;
   font-size: 45px;
@@ -335,7 +337,6 @@
   top: 2831px;
   width: 600px;
   text-align: left;
-  
 }
 
 .landing-page .allocation-the-2 {
@@ -351,7 +352,6 @@
   width: 600px;
   text-align: left;
   z-index: 10;
-  
 }
 
 .landing-page .allocation-the-bg {
@@ -376,7 +376,6 @@
   top: 2351px;
   width: 600px;
   text-align: center;
-  
 }
 
 .landing-page .allocation-the {
@@ -392,7 +391,6 @@
   width: 600px;
   text-align: center;
   z-index: 10;
-  
 }
 
 .landing-page .text-wrapper-5 {
@@ -435,22 +433,18 @@
   width: 1370px;
 }
 
-
-
 .landing-page .twitter-container {
-    width: 21%;
-    height: 17.2%; /* Adjust this value to resize the width */
-    max-width: 800px; /* Set a maximum width if needed */
-    margin: 20px auto; /* Center horizontally and add vertical margin */
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    border: 1px solid #e1e8ed;
-    position: relative; /* Allows for positioning adjustments */
-    left: 27.1%; /* Adjust this value to move horizontally */
-    top: 207px; /* Adjust this value to move vertically */
-  
-  }
+  width: 100%;
+  max-width: 310px; /* Adjust as needed */
+  margin: 20px auto; /* Center horizontally and add vertical margin */
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e1e8ed;
+  position: relative;
+  top: 190px;
+  left: 494px; /* Allows for positioning adjustments */
+}
 
 /* Customize the tweet content */
 .landing-page .twitter-tweet p {
@@ -463,6 +457,11 @@
   color: #1da1f2;
 }
 
+/* Ensure all images and embeds are responsive */
+img, .twitter-container {
+  max-width: 100%;
+  height: auto;
+}
 
 .landing-page .text-wrapper-6 {
   color: #000000;

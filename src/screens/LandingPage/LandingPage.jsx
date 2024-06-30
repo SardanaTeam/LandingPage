@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import TwitterEmbed from './TwitterEmbed'; // Import the TwitterEmbed component
+import TwitterEmbed from './TwitterEmbed';
 import "./style.css";
 
 const LandingPage = () => {
