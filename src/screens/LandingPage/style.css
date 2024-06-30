@@ -433,6 +433,9 @@
   width: 1370px;
 }
 
+
+
+
 .landing-page .twitter-container {
   width: 100%;
   max-width: 310px; /* Adjust as needed */
@@ -442,7 +445,7 @@
   border-radius: 10px;
   border: 1px solid #e1e8ed;
   position: relative;
-  top: 190px;
+  top: 210px;
   left: 494px; /* Allows for positioning adjustments */
 }
 
@@ -462,6 +465,8 @@ img, .twitter-container {
   max-width: 100%;
   height: auto;
 }
+
+
 
 .landing-page .text-wrapper-6 {
   color: #000000;
