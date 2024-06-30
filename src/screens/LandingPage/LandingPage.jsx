@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import TwitterEmbed from "./TwitterEmbed";
+import TwitterEmbed from './TwitterEmbed';
 import "./style.css";
 
 const LandingPage = () => {
@@ -8,45 +8,31 @@ const LandingPage = () => {
     <div className="landing-page">
       <Helmet>
         <title>SARDANA COIN - AIRDROP EVENT JULY 17TH</title>
-        <meta name="description" content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!" />
+        <meta name="description" content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop soon!" />
         <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
         <link rel="apple-touch-icon" sizes="180x180" href="/img/sardana-4.png" />
         <link rel="canonical" href="https://sardana.io/" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "WebSite",
-              "name": "Sardana",
-              "url": "https://sardana.io/",
-              "description": "Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop and pre sale soon!"
-            }
-          `}
-        </script>
       </Helmet>
       <div className="div">
         <div className="overlap-group">
           <div className="rectangle" />
           <img className="designer" alt="Designer" src="/img/designer-39-4.png" />
           <div className="rectangle-2" />
-          <div className="rectangle-vzz" />
+          <div className="rectangle-vza" />
           <div className="rectangle-3" />
           <p className="website-under">
-            Airdrop Registration July 17th.
-            <br />
-            Airdrop promotion event!
-            <br />
-            Check our Twitter and Follow our socials for updates!
+            Airdrop Registration July 17th. Airdrop promotion event! Check our Twitter and
+            Follow our socials for updates!
             <br />
             <a href="https://x.com/sardanacoin" target="_blank" rel="noopener noreferrer">x.com/sardanacoin</a>
             <br />
             <a href="https://t.me/sardanacoin" target="_blank" rel="noopener noreferrer">t.me/sardanacoin</a>
           </p>
           <div className="text-wrapper">sardana.io</div>
-
+          
           <img className="pie-chart-no-bg" alt="Pie chart no bg" src="/img/pie-chart-no-bg.png" />
           <img className="designer-3" alt="Designer" src="/img/designer-39-3.png" />
           <div className="text-wrapper-2">Sardana</div>
@@ -98,9 +84,10 @@ const LandingPage = () => {
           <p className="allocation-the">
             Allocation
             <br />
-            The allocation amount will be based on the total token sale in a unique model, with the percentages specified below:
-            </p>
-            <p className="allocation-the-2">
+            The allocation amount will be based on the total token sale in a unique model, with the percentages
+            specified below:
+          </p>
+          <p className="allocation-the-2">
             1%&nbsp;&nbsp;- Promotional Airdrops
             <br />
             8% - Reserves
@@ -116,9 +103,10 @@ const LandingPage = () => {
           <p className="allocation-the-bg">
             Allocation
             <br />
-            The allocation amount will be based on the total token sale in a unique model, with the percentages specified below:
-            </p>
-            <p className="allocation-the-bg-2">
+            The allocation amount will be based on the total token sale in a unique model, with the percentages
+            specified below:
+          </p>
+          <p className="allocation-the-bg-2">
             1%&nbsp;&nbsp;- Promotional Airdrops
             <br />
             8% - Reserves
@@ -130,8 +118,8 @@ const LandingPage = () => {
             30% - Liquidity
             <br />
             43% - Pre Sale
-            </p>
-
+          </p>
+          
           <p className="text-wrapper-5">Free Airdrop Event July 17th!</p>
           <a
             href="https://medium.com/@team_67394/discover-sardana-unveiling-the-future-of-memecoins-eb809b01f634"
