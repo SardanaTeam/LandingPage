@@ -23,7 +23,9 @@ const TwitterEmbed = () => {
           1️⃣ Follow <a href="https://twitter.com/SardanaCoin?ref_src=twsrc%5Etfw">@sardanacoin</a><br />
           2️⃣ Comment on this post<br />
           3️⃣ Retweet this post to spread the word!<br /><br />
-          The Sardine with the most likes and… <a href="https://t.co/uGuIZjC8hd">pic.twitter.com/uGuIZjC8hd</a>
+          The Sardine with the most likes and retweets wins!<br /><br />
+          (Promotion ends July 16th 15:00UTC)<br /><br />
+            <a href="https://t.co/uGuIZjC8hd">pic.twitter.com/uGuIZjC8hd</a>
         </p>
         &mdash; Sardana (@SardanaCoin) <a href="https://twitter.com/SardanaCoin/status/1807139225256554990?ref_src=twsrc%5Etfw">June 29, 2024</a>
       </blockquote>

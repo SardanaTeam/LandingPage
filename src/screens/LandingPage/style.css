@@ -65,7 +65,7 @@
 
 .landing-page .rectangle-2 {
   background-color: #67e3ff;
-  height: 618px;
+  height: 508px;
   left: 665px;
   position: absolute;
   top: 228px;
@@ -84,7 +84,7 @@
 .landing-page .website-under {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 400;
   left: 665px;
   letter-spacing: 0;
@@ -98,7 +98,7 @@
 
 .landing-page .medium-link {
   position: absolute;
-  top: 853px;
+  top: 663px;
   left: 1225px;
   width: 145px;
   height: 76px;
@@ -147,7 +147,7 @@
 
 .landing-page .arrow-image {
   position: absolute;
-  top: 855px;
+  top: 675px;
   left: 1116px;
   width: 85px;
   height: 85px;
@@ -159,10 +159,10 @@
 
 .landing-page .medium-text {
   position: absolute;
-  top: 930px;
+  top: 755px;
   left: 1047px;
   font-family: 'Island Moments', cursive;
-  font-size: 46px;
+  font-size: 49px;
   font-weight: 400;
   width: 330px;
   height: 53px;
