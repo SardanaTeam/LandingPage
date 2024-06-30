@@ -8,8 +8,8 @@ const LandingPage = () => {
     <div className="landing-page">
       <Helmet>
         <title>SARDANA COIN - AIRDROP EVENT JULY 17TH</title>
-        <meta name="description" content="Sardana Coin Airdrop Event July 17th! follow our socials and prepare for our free airdrop soon!" />
-        <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, release, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
+        <meta name="description" content="Sardana Coin Airdrop Event July 17th! go to pic.twitter.com/uGuIZjC8hd and compete for 1 SOL" />
+        <meta name="keywords" content="Sardana, Sardana Coin, Sardana.io, coming soon, memecoin, sardanacoin, Cryptocurrency, Blockchain, Decentralized" />
         <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=yes" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/img/sardana-4.png" sizes="16x16" />
@@ -23,8 +23,7 @@ const LandingPage = () => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <p className="website-under">
-            Airdrop Registration July 17th. Airdrop promotion event! Check our Twitter and
-            Follow our socials for updates!
+            Airdrop Registration July 17th. Airdrop promotion event! Check pic.twitter.com/uGuIZjC8hd updates!
             <br />
             <a href="https://x.com/sardanacoin" target="_blank" rel="noopener noreferrer">x.com/sardanacoin</a>
             <br />
@@ -97,7 +96,7 @@ const LandingPage = () => {
             <br />
             30% - Liquidity
             <br />
-            43% - Pre Sale
+            43% - Early Buyers
           </p>
           <p className="allocation-the-bg">
             Allocation
@@ -116,7 +115,7 @@ const LandingPage = () => {
             <br />
             30% - Liquidity
             <br />
-            43% - Pre Sale
+            43% - Early Buyers
           </p>
           
           <p className="text-wrapper-5">Free Airdrop Event July 17th!</p>
@@ -161,7 +160,7 @@ const LandingPage = () => {
           capital that you cannot afford to lose. The content on this site should not be considered investment advice.
           Investing is speculative. When investing your capital is at risk.
           <br />
-          We do not allow users of these countries to participate in the presale: The information on this site is not
+          We do not allow users of these countries to participate in the promotion: The information on this site is not
           intended for residents of Afghanistan, Benin, Bhutan, China, Crimea region, Cuba, Iran, Iraq, Syria, USA,
           Vatican City, or for use by any person in any country or jurisdiction where such distribution or use would be
           contrary to local law or regulation.
